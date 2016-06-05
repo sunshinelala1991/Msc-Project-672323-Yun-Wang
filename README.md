@@ -23,13 +23,13 @@ However, if you want to update the prediction model, you’ll need to follow the
 
 1 Run DownloadAudioFIles.py to download all the audio files to the “audio” folder.
 
-2. Convert the audio files to sample rate 44100Hz, “wav” format( I used iTunes for this). The file names are changed manually to the following format:
+2 Convert the audio files to sample rate 44100Hz, “wav” format( I used iTunes for this). The file names are changed manually to the following format:
  
                 AustralianGoldenWhistler_7.wav 
 
 where the string before “_” is the name of the bird.
 Store the files into a folder called “wav”
 
-3. Run populateDatabase.py to store features into the database. You will need a local mongodb database
+3 Run populateDatabase.py to store features into the database. You will need a local mongodb database
 
-4. Run webapp.py and click update prediction model on the webpage. Wait for a few seconds and the model on the server will be updated.
+4 Run webapp.py and click update prediction model on the webpage. Wait for a few seconds and the model on the server will be updated.

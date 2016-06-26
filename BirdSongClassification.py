@@ -2,9 +2,9 @@ import pymongo
 import sys
 import argparse
 from sklearn.mixture import GMM
-from features import mfcc
-import scipy.io.wavfile as wav
-from glob import glob
+#from features import mfcc
+#import scipy.io.wavfile as wav
+#from glob import glob
 import os
 import numpy as np
 from scikits.audiolab import Sndfile
